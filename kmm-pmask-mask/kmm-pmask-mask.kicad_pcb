@@ -315,7 +315,7 @@
 	(footprint "kmm-pmask:MAX30101EFD_T"
 		(layer "F.Cu")
 		(uuid "0245dc9a-b220-4eb9-b27e-eb6d390aac6e")
-		(at 48 100 90)
+		(at 47 100 90)
 		(property "Reference" "U9"
 			(at 0.37746 -4.16481 90)
 			(layer "F.SilkS")
@@ -3621,7 +3621,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "391b62c3-a37a-44e2-8a14-b6d8447fc900")
-		(at 47.4 97.6 180)
+		(at 46.4 97.6 180)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C14"
@@ -3773,7 +3773,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3a634881-a1d3-4d5a-be33-ef425fe0b9ec")
-		(at 110.8 108.6 90)
+		(at 109.8 108.6 90)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C22"
@@ -4077,7 +4077,7 @@
 	(footprint "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
 		(layer "F.Cu")
 		(uuid "52fd8d2c-78c9-4f98-ae0e-ad1babd016e5")
-		(at 109 109)
+		(at 108 109)
 		(descr "WSON, 6 Pin (http://www.ti.com/lit/ds/symlink/tps61040.pdf#page=35)")
 		(tags "WSON NoLead")
 		(property "Reference" "U13"
@@ -5135,7 +5135,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5f9c8672-98f9-4f23-b712-a142f64ae8fb")
-		(at 47.2 96.6 180)
+		(at 46.2 96.6 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C13"
@@ -9270,7 +9270,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "cc9a4071-d181-4e5d-9a78-3c6cc5def964")
-		(at 49.8 96.6)
+		(at 48.8 96.6)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C15"
@@ -10296,7 +10296,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "fd3d7de2-0ced-48ea-b733-10631238d09e")
-		(at 49.6 97.6)
+		(at 48.6 97.6)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C16"
@@ -10776,8 +10776,8 @@
 		(uuid "6b02527d-561f-4917-bdd1-6f0ee55fce1c")
 	)
 	(gr_line
-		(start 48 30)
-		(end 48 160)
+		(start 47 30)
+		(end 47 160)
 		(stroke
 			(width 0.1)
 			(type dash)
@@ -10876,8 +10876,8 @@
 		(uuid "0d58fbee-3998-4b8f-b875-ae9cdb44448f")
 	)
 	(gr_line
-		(start 109 30)
-		(end 109 160)
+		(start 108 30)
+		(end 108 160)
 		(stroke
 			(width 0.1)
 			(type dash)
@@ -19747,9 +19747,9 @@
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
-		(uuid "78cb185c-3c13-4ce6-a156-2caa8fd7b6dc")
+		(uuid "7563ef24-b82d-4fed-a86f-69aba42f8590")
 		(pts
-			(xy 109 160) (xy 103 160)
+			(xy 47 160) (xy 42 160)
 		)
 		(height 0)
 		(orientation 0)
@@ -19770,10 +19770,10 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "6"
-			(at 106 158.85 0)
+		(gr_text "5"
+			(at 44.5 158.85 0)
 			(layer "Dwgs.User")
-			(uuid "78cb185c-3c13-4ce6-a156-2caa8fd7b6dc")
+			(uuid "7563ef24-b82d-4fed-a86f-69aba42f8590")
 			(effects
 				(font
 					(size 1 1)
@@ -19785,9 +19785,9 @@
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
-		(uuid "798f7146-b27c-40d6-bf0d-f2b37aaa949c")
+		(uuid "78cb185c-3c13-4ce6-a156-2caa8fd7b6dc")
 		(pts
-			(xy 48 160) (xy 42 160)
+			(xy 108 160) (xy 103 160)
 		)
 		(height 0)
 		(orientation 0)
@@ -19808,10 +19808,10 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "6"
-			(at 45 158.85 0)
+		(gr_text "5"
+			(at 105.5 158.85 0)
 			(layer "Dwgs.User")
-			(uuid "798f7146-b27c-40d6-bf0d-f2b37aaa949c")
+			(uuid "78cb185c-3c13-4ce6-a156-2caa8fd7b6dc")
 			(effects
 				(font
 					(size 1 1)
@@ -19850,44 +19850,6 @@
 			(at 58 158.85 0)
 			(layer "Dwgs.User")
 			(uuid "8434cd0c-502d-4330-8044-f6b7d13d8b8a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "Dwgs.User")
-		(uuid "84fa789a-ec3b-485e-bee9-09868d3a23d6")
-		(pts
-			(xy 55 160) (xy 48 160)
-		)
-		(height 0)
-		(orientation 0)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "7"
-			(at 51.5 158.85 0)
-			(layer "Dwgs.User")
-			(uuid "84fa789a-ec3b-485e-bee9-09868d3a23d6")
 			(effects
 				(font
 					(size 1 1)
@@ -20040,6 +20002,44 @@
 			(at 135 148.85 0)
 			(layer "Dwgs.User")
 			(uuid "bcb6cdc0-cd21-4d53-a595-2e76256b025d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "d15cd7b6-9487-4b75-bfc6-057633bb803e")
+		(pts
+			(xy 55 160) (xy 47 160)
+		)
+		(height 0)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "8"
+			(at 51 158.85 0)
+			(layer "Dwgs.User")
+			(uuid "d15cd7b6-9487-4b75-bfc6-057633bb803e")
 			(effects
 				(font
 					(size 1 1)
