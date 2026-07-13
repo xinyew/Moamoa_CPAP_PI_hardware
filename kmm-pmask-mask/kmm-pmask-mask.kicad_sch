@@ -4536,7 +4536,7 @@
 		)
 		(uuid "e3b4dda3-2567-4d91-add7-8cab09f18b2a")
 	)
-	(text "External pull-ups required\non MCU Side"
+	(text "External pull-ups required\non MCU Side\nSCL up to 400 kHz\n(I2C Fast Mode)"
 		(exclude_from_sim no)
 		(at 369.57 59.69 0)
 		(effects
@@ -4613,8 +4613,8 @@
 	)
 	(text_box "Note that this component is not a repeater.\nEnabled channels add bus capacitance and pull-up resistors. Assuming the master-side I2C pull-ups are 4.7 kΩ, the total pull-up resistance when one channel is enabled is 2.35 kΩ."
 		(exclude_from_sim no)
-		(at 346.71 20.32 0)
-		(size 52.07 12.7)
+		(at 255.27 20.32 0)
+		(size 93.98 8.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -4788,6 +4788,12 @@
 		(uuid "ad6de3aa-36ac-4af6-bf5f-16099540f46f")
 	)
 	(junction
+		(at 359.41 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b468e244-b0a1-4c27-bc2b-c337b1aa4b70")
+	)
+	(junction
 		(at 374.65 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4924,6 +4930,16 @@
 			(type default)
 		)
 		(uuid "00ea6c1e-e5b8-4eb2-9801-e31ea5d84faf")
+	)
+	(wire
+		(pts
+			(xy 364.49 31.75) (xy 364.49 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "013869ad-06da-463b-92c3-db948ffba501")
 	)
 	(wire
 		(pts
@@ -5277,6 +5293,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 30.48) (xy 364.49 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "188e22a2-b52f-470e-a030-cd5699173768")
+	)
+	(wire
+		(pts
 			(xy 109.22 69.85) (xy 109.22 77.47)
 		)
 		(stroke
@@ -5537,7 +5563,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 41.91) (xy 359.41 43.18)
+			(xy 359.41 29.21) (xy 359.41 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6237,6 +6263,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 30.48) (xy 359.41 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711460dc-388c-47ce-9d42-fcd99176364b")
+	)
+	(wire
+		(pts
 			(xy 252.73 151.13) (xy 252.73 152.4)
 		)
 		(stroke
@@ -6905,6 +6941,16 @@
 		)
 		(uuid "bb1e9357-3f21-465c-9917-328063b6cf10")
 	)
+	(polyline
+		(pts
+			(xy 255.27 29.21) (xy 267.97 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb34ba3a-c1bc-48eb-a2ac-de3d1cc572fb")
+	)
 	(wire
 		(pts
 			(xy 334.01 36.83) (xy 334.01 38.1)
@@ -6964,6 +7010,16 @@
 			(type default)
 		)
 		(uuid "c09d6e71-1ee2-4beb-b82f-4e661a358786")
+	)
+	(wire
+		(pts
+			(xy 364.49 39.37) (xy 364.49 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c270fb3f-7e92-434f-9070-e694c654f760")
 	)
 	(wire
 		(pts
@@ -7264,16 +7320,6 @@
 			(type default)
 		)
 		(uuid "e8bc8ec2-76aa-4379-8cdf-24554eab95c4")
-	)
-	(polyline
-		(pts
-			(xy 341.63 36.83) (xy 346.71 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea5d00e1-3446-4d8d-bca6-9e32761c05cf")
 	)
 	(wire
 		(pts
@@ -10737,7 +10783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 180.975 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11711,7 +11757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 168.275 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11758,7 +11804,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 359.41 41.91 0)
+		(at 359.41 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11769,7 +11815,7 @@
 		(fields_autoplaced yes)
 		(uuid "20bb1c4d-8abb-4b54-9d60-f3c5f7146e5f")
 		(property "Reference" "#PWR066"
-			(at 359.41 45.72 0)
+			(at 359.41 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11780,7 +11826,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 359.41 36.83 0)
+			(at 359.41 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11790,7 +11836,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 41.91 0)
+			(at 359.41 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11801,7 +11847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 41.91 0)
+			(at 359.41 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11812,7 +11858,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 359.41 41.91 0)
+			(at 359.41 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12213,7 +12259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 262.89 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -14796,7 +14842,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 145.415 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -15275,7 +15321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 155.575 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -15949,6 +15995,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 364.49 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "700dfcd7-ecd6-47be-9b95-92fb71576a89")
+		(property "Reference" "C27"
+			(at 368.3 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 368.3 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 365.4552 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 364.49 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cb3d8ef5-e938-4472-94a4-0b2f8982f86c")
+		)
+		(pin "1"
+			(uuid "63269086-dc21-4e64-9835-49e8ec41960b")
+		)
+		(instances
+			(project "kmm-pmask-mask"
+				(path "/6ac4c06d-c96a-41f2-a65c-ab65b41e4db1"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 303.53 100.33 180)
 		(unit 1)
@@ -15982,7 +16110,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 298.45 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -16715,7 +16843,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 170.815 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -16954,7 +17082,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 158.115 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -17827,7 +17955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 341.63 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -18023,6 +18151,84 @@
 			(project "kmm-pmask-mask"
 				(path "/6ac4c06d-c96a-41f2-a65c-ab65b41e4db1"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 364.49 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99466d46-e9cb-44e7-add7-ba08e49e24af")
+		(property "Reference" "#PWR089"
+			(at 364.49 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 364.49 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 364.49 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e559cde-8578-4124-9e95-b11c1f4ca092")
+		)
+		(instances
+			(project "kmm-pmask-mask"
+				(path "/6ac4c06d-c96a-41f2-a65c-ab65b41e4db1"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -18445,25 +18651,25 @@
 		(dnp no)
 		(uuid "9f56ab9b-1bcd-443a-936c-62311325eb14")
 		(property "Reference" "U15"
-			(at 360.68 43.18 0)
+			(at 355.6 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "TCA9546APW"
-			(at 360.68 45.72 0)
+			(at 355.6 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
@@ -18943,7 +19149,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 252.73 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -19211,7 +19417,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 313.69 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -19290,7 +19496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 323.85 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -20994,7 +21200,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 283.21 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -21073,7 +21279,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 267.97 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -22868,7 +23074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 308.61 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -23571,7 +23777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 278.13 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -23935,7 +24141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 293.37 93.98 0)
 			(hide yes)
 			(show_name no)
