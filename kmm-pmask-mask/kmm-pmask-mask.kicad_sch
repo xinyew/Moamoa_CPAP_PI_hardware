@@ -12330,7 +12330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kmm-pmask:AMPHENOL_F31L-1A7H1-11030"
 			(at 383.54 173.99 0)
 			(hide yes)
 			(show_name no)
