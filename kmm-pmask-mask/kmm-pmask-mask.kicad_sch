@@ -3504,7 +3504,7 @@
 		)
 		(uuid "2b3ae83d-7c69-445c-82dd-df3bd026d81f")
 	)
-	(text "I2C bus 3.3 V PU tolerant\n\nI2C W/R addr:\n0xAE/0xAF"
+	(text "I2C bus 3.3 V PU tolerant\n\nI2C addr: 0x57"
 		(exclude_from_sim no)
 		(at 162.56 44.45 0)
 		(effects
@@ -3568,7 +3568,7 @@
 		)
 		(uuid "6d9df1eb-6faa-4355-966a-561d86e17fb2")
 	)
-	(text "I2C bus 3.3 V PU tolerant\n\nI2C W/R addr:\n0xAE/0xAF"
+	(text "I2C bus 3.3 V PU tolerant\n\nI2C addr: 0x57"
 		(exclude_from_sim no)
 		(at 165.1 128.27 0)
 		(effects
@@ -3633,7 +3633,7 @@
 		)
 		(uuid "abbf5a05-42c2-4be2-a15f-39fcd116fe4b")
 	)
-	(text "I2C bus 3.3 V PU tolerant\n\nI2C W/R addr:\n0xAE/0xAF"
+	(text "I2C bus 3.3 V PU tolerant\n\nI2C addr: 0x57"
 		(exclude_from_sim no)
 		(at 166.37 172.72 0)
 		(effects
@@ -3654,7 +3654,7 @@
 		)
 		(uuid "d6670745-b5a0-4739-bc7a-27fca98a2cc6")
 	)
-	(text "I2C bus 3.3 V PU tolerant\n\nI2C W/R addr:\n0xAE/0xAF"
+	(text "I2C bus 3.3 V PU tolerant\n\nI2C addr: 0x57"
 		(exclude_from_sim no)
 		(at 163.83 86.36 0)
 		(effects
