@@ -16913,6 +16913,16 @@
 		(uuid "04afbf6d-fedc-43f4-93fa-d8efb0f3d78c")
 	)
 	(gr_line
+		(start 25 45)
+		(end 125 45)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "Dwgs.User")
+		(uuid "fdd46db3-6890-4b9f-bb95-922014ab0944")
+	)
+	(gr_line
 		(start 25 55)
 		(end 125 55)
 		(stroke
@@ -25919,7 +25929,7 @@
 			(justify right top)
 		)
 	)
-	(gr_text "STIFFENER\nPI (Polyamide) 0.2mm"
+	(gr_text "STIFFENER\nPI (Polyimide) 0.2mm"
 		(at 91 40 0)
 		(layer "User.2")
 		(uuid "14f76155-8d71-4e84-a879-66e92b1123af")
@@ -25929,6 +25939,46 @@
 			)
 			(justify left top)
 		)
+	)
+	(gr_text_box "Designed for JLCPCB Flex Process\n\nSpecifications:\nDielectric Thickness: 25 μm \nPCB Thickness: 0.12 mm\nCopper Type: Electro-deposited\nSurface Finish: ENIG\nGold Thickness: 1 U{dblquote}\nOuter Copper Weight: 0.5 oz/ft^{2}\nStiffener: Yes, PI (Polyimide) 0.2 mm\nEMI shielding: No\nCutting Method: Laser\nSilkscreen on Stiffener: No\n\nRemark:\nStiffener geometry specified on separate layer."
+		(start 130 30)
+		(end 170 60)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "Cmts.User")
+		(uuid "c3a57745-dd81-475d-87ee-f2572b807232")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(knockout no)
+	)
+	(gr_text_box "Remarks on Assembly:\n\nIt is recommended to pre-bake this board before assembly and reflow.\nUse low-temp solder paste (Sn42/Bi58) if possible. Otherwise reflow temperature must not exceed 260 °C.\nThree fiducial marks are provided but automated assembly is not recommended without addition of a fixture."
+		(start 130 65)
+		(end 170 85)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "Cmts.User")
+		(uuid "9357a2b5-58cb-49ba-90f3-ba3acd249c19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(knockout no)
 	)
 	(dimension
 		(type orthogonal)
@@ -26530,6 +26580,44 @@
 			(at 123.85 93 90)
 			(layer "Dwgs.User")
 			(uuid "e193c113-5d7f-43b7-abe4-995abedb3253")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "e880d87b-61c7-4ab6-8c90-d8c4f7316661")
+		(pts
+			(xy 125 55) (xy 125 45)
+		)
+		(height 0)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10"
+			(at 123.85 50 90)
+			(layer "Dwgs.User")
+			(uuid "e880d87b-61c7-4ab6-8c90-d8c4f7316661")
 			(effects
 				(font
 					(size 1 1)
