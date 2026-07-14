@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(general
-		(thickness 0.1905)
+		(thickness 0.115)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -16,8 +16,6 @@
 	)
 	(layers
 		(0 "F.Cu" signal)
-		(4 "In1.Cu" signal)
-		(6 "In2.Cu" signal)
 		(2 "B.Cu" signal)
 		(13 "F.Paste" user)
 		(15 "B.Paste" user)
@@ -52,45 +50,19 @@
 			)
 			(layer "F.Cu"
 				(type "copper")
-				(thickness 0.012)
+				(thickness 0.0175)
 			)
 			(layer "dielectric 1"
 				(type "core")
 				(color "Polyimide")
-				(thickness 0.0125 locked)
-				(material "Polyimide")
-				(epsilon_r 3.2)
-				(loss_tangent 0.004) addsublayer
 				(thickness 0.025 locked)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.012)
-			)
-			(layer "dielectric 2"
-				(type "core")
-				(color "Polyimide")
-				(thickness 0.0125 locked)
 				(material "Polyimide")
 				(epsilon_r 3.2)
 				(loss_tangent 0.004)
 			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.012)
-			)
-			(layer "dielectric 3"
-				(type "core")
-				(color "Polyimide")
-				(thickness 0.0125 locked)
-				(material "Polyimide")
-				(epsilon_r 3.2)
-				(loss_tangent 0.004) addsublayer
-				(thickness 0.025 locked)
-			)
 			(layer "B.Cu"
 				(type "copper")
-				(thickness 0.012)
+				(thickness 0.0175)
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
