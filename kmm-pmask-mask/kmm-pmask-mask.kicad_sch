@@ -4218,7 +4218,7 @@
 		)
 		(uuid "10e4c8e5-ba93-463c-8f80-e95d42b88398")
 	)
-	(text "CSB pulled low\nI2C addr 0x77"
+	(text "CSB pulled low\nI2C addr 0x77\nBus load 16 pF"
 		(exclude_from_sim no)
 		(at 59.69 208.28 0)
 		(effects
@@ -4262,7 +4262,7 @@
 		)
 		(uuid "22d10a83-3d60-4e58-96a5-592ed5b6839e")
 	)
-	(text "ADDR0 shorted\nto GND\nI2C addr 0x4A"
+	(text "ADDR0 shorted\nto GND\nI2C addr 0x4A\nBus load 4 pF"
 		(exclude_from_sim no)
 		(at 213.36 260.35 0)
 		(effects
@@ -4284,7 +4284,7 @@
 		)
 		(uuid "2e72d76c-d1bf-4fe4-b537-4e52abcd6464")
 	)
-	(text "I2C bus 3.3 V\ntolerant\nI2C addr 0x57"
+	(text "I2C bus 3.3 V\ntolerant\nI2C addr 0x57\nBus load 10 pF"
 		(exclude_from_sim no)
 		(at 149.86 80.01 0)
 		(effects
@@ -4382,7 +4382,7 @@
 		)
 		(uuid "487aee61-9a81-4481-bf60-0d66bb384bf5")
 	)
-	(text "CSB pulled low\nI2C addr 0x77"
+	(text "CSB pulled low\nI2C addr 0x77\nBus load 16 pF"
 		(exclude_from_sim no)
 		(at 59.69 151.13 0)
 		(effects
@@ -4393,7 +4393,7 @@
 		)
 		(uuid "4b377fbf-d741-447d-ba3e-6ced3dbb9264")
 	)
-	(text "ADDR0 shorted\nto GND\nI2C addr 0x4A"
+	(text "ADDR0 shorted\nto GND\nI2C addr 0x4A\nBus load 4 pF"
 		(exclude_from_sim no)
 		(at 213.36 146.05 0)
 		(effects
@@ -4480,7 +4480,7 @@
 		)
 		(uuid "71feeeb8-2d76-4b03-b5fa-af4505a2bbc2")
 	)
-	(text "I2C bus 3.3 V\ntolerant\nI2C addr 0x57"
+	(text "I2C bus 3.3 V\ntolerant\nI2C addr 0x57\nBus load 10 pF"
 		(exclude_from_sim no)
 		(at 149.86 194.31 0)
 		(effects
@@ -4513,7 +4513,7 @@
 		)
 		(uuid "86497e87-6726-439b-a5b9-1b58579d744c")
 	)
-	(text "I2C addr 0x44"
+	(text "I2C addr 0x44\nBus load\nunknown\n(Est. 10 pF)"
 		(exclude_from_sim no)
 		(at 261.62 147.32 0)
 		(effects
@@ -4535,7 +4535,7 @@
 		)
 		(uuid "967f88db-3179-462f-adf7-d33ec769d7f3")
 	)
-	(text "CSB pulled low\nI2C addr 0x77"
+	(text "CSB pulled low\nI2C addr 0x77\nBus load 16 pF"
 		(exclude_from_sim no)
 		(at 59.69 93.98 0)
 		(effects
@@ -4568,7 +4568,7 @@
 		)
 		(uuid "9e41bc02-7780-444c-9fb1-0b52014ef5d7")
 	)
-	(text "ADDR0 shorted\nto GND\nI2C addr 0x4A"
+	(text "ADDR0 shorted\nto GND\nI2C addr 0x4A\nBus load 4 pF"
 		(exclude_from_sim no)
 		(at 213.36 203.2 0)
 		(effects
@@ -4644,7 +4644,7 @@
 		)
 		(uuid "b3c44444-d870-4854-a3e1-408bc948e447")
 	)
-	(text "I2C bus 3.3 V\ntolerant\nI2C addr 0x57"
+	(text "I2C bus 3.3 V\ntolerant\nI2C addr 0x57\nBus load 10 pF"
 		(exclude_from_sim no)
 		(at 149.86 251.46 0)
 		(effects
@@ -4677,7 +4677,7 @@
 		)
 		(uuid "c2b9dea5-f44e-4a0b-8e75-547daa43333d")
 	)
-	(text "I2C addr 0x44"
+	(text "I2C addr 0x44\nBus load\nunknown\n(Est. 10 pF)"
 		(exclude_from_sim no)
 		(at 261.62 261.62 0)
 		(effects
@@ -4731,7 +4731,7 @@
 		)
 		(uuid "d6670745-b5a0-4739-bc7a-27fca98a2cc6")
 	)
-	(text "I2C bus 3.3 V\ntolerant\nI2C addr 0x57"
+	(text "I2C bus 3.3 V\ntolerant\nI2C addr 0x57\nBus load 10 pF"
 		(exclude_from_sim no)
 		(at 149.86 137.16 0)
 		(effects
@@ -4742,7 +4742,7 @@
 		)
 		(uuid "d8f400b0-f3fd-4142-96ef-2b98c5c2c2e9")
 	)
-	(text "CSB pulled low\nI2C addr 0x77"
+	(text "CSB pulled low\nI2C addr 0x77\nBus load 16 pF"
 		(exclude_from_sim no)
 		(at 59.69 265.43 0)
 		(effects
@@ -4764,7 +4764,7 @@
 		)
 		(uuid "e1fbac00-8b22-4fbe-bf89-cec8167afc0a")
 	)
-	(text "I2C addr 0x44"
+	(text "I2C addr 0x44\nBus load\nunknown\n(Est. 10 pF)"
 		(exclude_from_sim no)
 		(at 261.62 204.47 0)
 		(effects
@@ -4910,6 +4910,26 @@
 		)
 		(uuid "b01cf894-49f5-4319-953a-4f13aabdd960")
 	)
+	(text_box "Worst bus capacitance is 30 pF.\nSwitch adds 6 pF (normal op).\nLongest microstrip is ~50 pF."
+		(exclude_from_sim no)
+		(at 364.49 98.5646 0)
+		(size 34.29 8.0376)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e97c93a2-1690-4881-b3a6-1667d930d994")
+	)
 	(junction
 		(at 298.45 71.12)
 		(diameter 0)
@@ -4941,6 +4961,12 @@
 		(uuid "33c70eb4-4fdb-49c8-9838-a3baf295fe4d")
 	)
 	(junction
+		(at 320.04 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "396cf8d8-23d8-44ff-af39-95180ff7a087")
+	)
+	(junction
 		(at 125.73 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4957,12 +4983,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "433cee68-b55e-4240-b2d7-8693194376ad")
-	)
-	(junction
-		(at 320.04 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49e66abb-0b47-45d9-9117-840e56ca481b")
 	)
 	(junction
 		(at 109.22 248.92)
@@ -5035,6 +5055,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97bc8d5f-018d-435c-b7e9-8aff45a08948")
+	)
+	(junction
+		(at 320.04 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "997e9db4-bc34-4f40-8a4a-9eb37860a4dc")
 	)
 	(junction
 		(at 198.12 127)
@@ -5137,12 +5163,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0bab7fa-c42e-4412-b517-c8d4f302df7c")
-	)
-	(junction
-		(at 320.04 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f342a039-14a2-43fb-8c94-e188e3d3efb0")
 	)
 	(junction
 		(at 83.82 129.54)
@@ -5301,16 +5321,6 @@
 			(type default)
 		)
 		(uuid "05945b3c-238f-41b8-a3ad-0cde58641e7b")
-	)
-	(wire
-		(pts
-			(xy 320.04 172.72) (xy 320.04 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05f057c5-97f5-4e4d-8f5f-681c953b9bca")
 	)
 	(wire
 		(pts
@@ -5954,7 +5964,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 172.72) (xy 328.93 172.72)
+			(xy 320.04 175.26) (xy 328.93 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6734,7 +6744,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 144.78) (xy 328.93 144.78)
+			(xy 320.04 142.24) (xy 328.93 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7081,6 +7091,16 @@
 			(type default)
 		)
 		(uuid "7f52a0d5-f87f-4781-b285-8add55072f47")
+	)
+	(wire
+		(pts
+			(xy 320.04 175.26) (xy 320.04 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fdf15d0-6377-44c1-a5c8-02e46d0beca8")
 	)
 	(polyline
 		(pts
@@ -11071,7 +11091,7 @@
 		(uuid "185a5f6d-4734-474f-9f1f-4fe8c026554f")
 	)
 	(label "PRESEN1"
-		(at 328.93 172.72 0)
+		(at 328.93 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11481,7 +11501,7 @@
 		(uuid "de0ecf93-a33f-4942-b659-65513bed753a")
 	)
 	(label "PRESEN0"
-		(at 328.93 144.78 0)
+		(at 328.93 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
