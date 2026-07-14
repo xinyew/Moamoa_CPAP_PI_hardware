@@ -4830,7 +4830,7 @@
 		)
 		(uuid "f6a45427-570d-4e2b-9d16-9fcd2be9820c")
 	)
-	(text_box "Since it is very easy to accidentally buy the wrong type of FFC cable, this connector is designed to be symmetrical so either type works.\nPresence detection pins are also provided to detect when the cable is connected."
+	(text_box "Since it is very easy to accidentally use the wrong type of FFC cable, this connector is designed to be symmetrical so either type works.\nPresence detection pins are also provided to detect when the cable is connected."
 		(exclude_from_sim no)
 		(at 287.02 199.39 0)
 		(size 111.76 8.89)
@@ -4890,7 +4890,7 @@
 		)
 		(uuid "aeabc8ff-1be2-407f-b91a-3abec7883554")
 	)
-	(text_box "Total Power Input Capability:\n5.0V: 2.0A max\n3.3V: 2.0A max\n1.8V: 1.0A max\n\nCurrent Supply Headroom:\n5.0V: 100%\n3.3V: 400%\n1.8V: >500%"
+	(text_box "Total Power Input Capability:\n5.0V: 2.0A max\n3.3V: 2.0A max\n1.8V: 1.0A max\n\nCurrent Capacity Usage:\n5.0V: 50%\n3.3V: 20%\n1.8V: <10%"
 		(exclude_from_sim no)
 		(at 368.3 115.57 0)
 		(size 30.48 20.3053)
