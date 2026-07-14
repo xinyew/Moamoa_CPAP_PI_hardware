@@ -130,7 +130,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "exports/gerbers/")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
@@ -2366,6 +2366,123 @@
 			)
 		)
 	)
+	(footprint "Fiducial:Fiducial_1mm_Mask3mm"
+		(layer "F.Cu")
+		(uuid "12dd57ae-e678-4255-9d97-43a0ad5577f9")
+		(at 83.5 57.5)
+		(descr "Fiducial, circular marking, 1mm bare copper, 3mm soldermask opening (recommended)")
+		(tags "fiducial")
+		(property "Reference" "FID3"
+			(at 0 2.5 0)
+			(layer "F.SilkS")
+			(uuid "650abcba-49af-4960-8720-c5d522031b12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 2.45 0)
+			(layer "F.Fab")
+			(uuid "b9cda456-80e7-41b8-a94d-e405714a1304")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe3a9951-1db9-42f7-938b-ea9f1e46a552")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28e8082b-c6f2-4b50-98a8-56a7fbd8fee7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "fiducial"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "01975fe9-6e8d-4d6b-9a48-140d459ebeda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/2226c67e-0549-49bd-977c-d648e65e3e5e")
+		(sheetname "/")
+		(sheetfile "kmm-pmask-mask.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr smd exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "fdbfed13-ddbe-4436-8c7f-eea4d2a04d45")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "96ba179f-6f76-4812-9661-1d87c5ca963d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "728d1294-4e22-4f96-af9a-74e06899405c")
+			(effects
+				(font
+					(size 0.75 0.75)
+					(thickness 0.11)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 1)
+			(clearance 1.1)
+			(uuid "c705cb3e-123c-4eb1-bc44-ae9485f94a6d")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "21f1e195-ff8d-46d4-ba09-74941ea7f01b")
@@ -3188,6 +3305,123 @@
 				(xyz -90 -0 -0)
 			)
 		)
+	)
+	(footprint "Fiducial:Fiducial_1mm_Mask3mm"
+		(layer "F.Cu")
+		(uuid "231e8264-6713-4f0f-900e-b69c590f7bab")
+		(at 115 130)
+		(descr "Fiducial, circular marking, 1mm bare copper, 3mm soldermask opening (recommended)")
+		(tags "fiducial")
+		(property "Reference" "FID1"
+			(at 0 -2.45 0)
+			(layer "F.SilkS")
+			(uuid "a3b7a3ff-c532-4b54-94b9-9520eb585651")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 2.45 0)
+			(layer "F.Fab")
+			(uuid "e54ae26f-f4a4-4374-83ed-0e7f28edf74f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fafaeb4c-f3ff-4610-8858-42c255d239f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38fef98b-68fa-404a-9a29-db81016eca63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "fiducial"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4477e736-fc37-4096-92df-e1f7b84ffd42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/6e1c6518-a3b5-40f3-a738-7bad0730bf51")
+		(sheetname "/")
+		(sheetfile "kmm-pmask-mask.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr smd exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "aca8ba86-b1c9-42d7-b471-12b17831b9f4")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "d7f0ab1b-df81-433c-ab21-fdba10e8bfde")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0cd101ca-734c-40d3-89c7-9fea4d2fe48a")
+			(effects
+				(font
+					(size 0.75 0.75)
+					(thickness 0.11)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 1)
+			(clearance 1.1)
+			(uuid "33f65161-1780-42d5-864d-c57c35893793")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
@@ -7456,6 +7690,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/../lib/3d/SHT40-AD1B-R3.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
@@ -11140,7 +11385,7 @@
 		(property "Reference" "U3"
 			(at 0 -1.7 0)
 			(layer "F.SilkS")
-			(uuid "a51bf9a4-a514-4136-a0d0-45381dece850")
+			(uuid "aebe2903-e4c8-446f-a26d-c0a29f9b6181")
 			(effects
 				(font
 					(size 1 1)
@@ -11151,7 +11396,7 @@
 		(property "Value" "SHT40-AD1B-R3"
 			(at 0 1.7 0)
 			(layer "F.Fab")
-			(uuid "94458548-8f21-4112-921c-4c3da982ef0d")
+			(uuid "2c088606-b6e0-463a-b7e6-3730ebbe00e9")
 			(effects
 				(font
 					(size 1 1)
@@ -11164,7 +11409,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3765e1a1-f055-44f3-8b5f-3c486f6a7c04")
+			(uuid "8dc69a1b-a07e-47bb-9c66-5c6dbbb69e33")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11177,7 +11422,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "86126fa6-f520-434f-b4aa-922b21bc700b")
+			(uuid "4a255849-84e2-4b8e-8591-b52460ae52dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11448,6 +11693,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/../lib/3d/SHT40-AD1B-R3.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -11951,6 +12207,123 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "Fiducial:Fiducial_1mm_Mask3mm"
+		(layer "F.Cu")
+		(uuid "e3a4db2d-b0f9-4c25-bd79-d5a7d2906f20")
+		(at 35 130)
+		(descr "Fiducial, circular marking, 1mm bare copper, 3mm soldermask opening (recommended)")
+		(tags "fiducial")
+		(property "Reference" "FID2"
+			(at 0 -2.45 0)
+			(layer "F.SilkS")
+			(uuid "04a44daa-c862-4153-b246-7e23efe48337")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 2.45 0)
+			(layer "F.Fab")
+			(uuid "3f655b08-fc65-44c7-9b33-1df9d08de8ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "630af2ef-6263-42a3-9b57-47867979f0ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27a1cd9a-2efe-4b1c-8975-d0e880c1f997")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "fiducial"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b3db4640-8a67-449f-a476-7aa74bb9c0a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/16cfbbc2-d33c-4507-ba12-85cdfd4eff0d")
+		(sheetname "/")
+		(sheetfile "kmm-pmask-mask.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr smd exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "84200ef1-f67c-4283-87d9-f5506817647e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "29b1a04d-004b-472c-8b2f-13079f08e4b2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "cc7f1bb6-56b6-4c6b-9b52-f9c00452d1b4")
+			(effects
+				(font
+					(size 0.75 0.75)
+					(thickness 0.11)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 1)
+			(clearance 1.1)
+			(uuid "99c7cc60-22f5-4833-8a0a-3b9d0f1f1fe9")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 		(layer "F.Cu")
@@ -12788,7 +13161,7 @@
 		(descr "Sensirion, SHT40, SHT41, SHT45, DFN, 4 Pin (https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf)")
 		(tags "DFN NoLead")
 		(property "Reference" "U11"
-			(at 0 2.6 180)
+			(at 0 2.6 0)
 			(layer "F.SilkS")
 			(uuid "7da6a0e5-7b7e-4056-8b8d-ec963e536c2d")
 			(effects
@@ -13098,6 +13471,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/../lib/3d/SHT40-AD1B-R3.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -14111,7 +14495,7 @@
 	(footprint "kmm-pmask:GRAPHIC_PIMAN_PCB"
 		(layer "B.Cu")
 		(uuid "9c8e1b4f-e05f-44b6-bd6e-3db09d1ecaae")
-		(at 75 69 180)
+		(at 75 70 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "B.SilkS")
