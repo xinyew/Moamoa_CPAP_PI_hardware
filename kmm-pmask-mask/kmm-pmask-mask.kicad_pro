@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.127,
         "min_connection": 0.2,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -514,7 +514,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -533,7 +533,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -550,7 +550,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
@@ -743,7 +743,7 @@
         "uuid": "6ac4c06d-c96a-41f2-a65c-ab65b41e4db1"
       }
     ],
-    "used_designators": "TP1-17,R1-8,C1-29,#PWR1-111,J1,U1-19",
+    "used_designators": "#FLG1-5,TP1-23,R1-8,C1-29,#PWR1-116,J1,U1-19",
     "variants": []
   },
   "sheets": [
