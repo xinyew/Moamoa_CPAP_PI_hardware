@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "017fc1a5-7685-42e4-aeb8-6a6d5749975a")
+	(paper "A4")
+	(title_block
+		(date "2026-07-15")
+		(rev "2.0")
+		(company "Ka Moamoa Lab, Georgia Institute of Technology")
+		(comment 1 "Aiden Lee [piman PCB]")
+	)
+	(lib_symbols)
+)

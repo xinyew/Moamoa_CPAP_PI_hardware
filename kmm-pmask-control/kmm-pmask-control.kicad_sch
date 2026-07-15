@@ -2,9 +2,174 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid c80d922d-876d-4b9c-ac92-42497602c2d1)
+	(uuid "c80d922d-876d-4b9c-ac92-42497602c2d1")
 	(paper "A4")
+	(title_block
+		(title "Patient Monitoring Mask Control Board")
+		(date "2026-07-15")
+		(rev "2.0")
+		(company "Ka Moamoa Lab, Georgia Institute of Technology")
+		(comment 1 "Aiden Lee [piman PCB]")
+	)
 	(lib_symbols)
+	(sheet
+		(at 69.85 25.4)
+		(size 31.75 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "841086c9-4c99-4f37-bfb8-92a537b93af0")
+		(property "Sheetname" "MCU"
+			(at 69.85 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 69.85 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kmm-pmask-control"
+				(path "/c80d922d-876d-4b9c-ac92-42497602c2d1"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 25.4)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ccc70257-e47e-479f-a899-538e883eeaf6")
+		(property "Sheetname" "Mask Connection"
+			(at 114.3 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ext_conn.kicad_sch"
+			(at 114.3 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C{SDA, SCL, EN, ~{RST}}" bidirectional
+			(at 114.3 27.94 180)
+			(uuid "3d857cce-7ace-4195-83d9-14ecf9d8c658")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PRESEN{A, B}" output
+			(at 114.3 35.56 180)
+			(uuid "d8258805-8bcc-467c-ba4f-cd54a0a07468")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "kmm-pmask-control"
+				(path "/c80d922d-876d-4b9c-ac92-42497602c2d1"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 25.4)
+		(size 25.4 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f007cbbd-83c1-44ae-bc22-d663ba1e2f0c")
+		(property "Sheetname" "Power"
+			(at 31.75 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 31.75 45.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kmm-pmask-control"
+				(path "/c80d922d-876d-4b9c-ac92-42497602c2d1"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
