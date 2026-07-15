@@ -2436,6 +2436,18 @@
 		(uuid "0fc010ca-9633-4d9f-aa99-516ac116da03")
 	)
 	(rectangle
+		(start 71.12 132.08)
+		(end 90.17 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "426bc435-db8e-42d3-9741-9545db8edd9a")
+	)
+	(rectangle
 		(start 38.1 120.65)
 		(end 120.65 158.75)
 		(stroke
@@ -2494,6 +2506,17 @@
 		)
 		(uuid "2b46faf6-1958-4199-8f0f-a8be63fbb6f1")
 	)
+	(text "30 pos\n0.5mm pitch\nZero Insertion Force"
+		(exclude_from_sim no)
+		(at 236.855 85.725 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2ec86657-1693-4c23-b8ad-f82792545788")
+	)
 	(text "Power Output\n5.0V: 1.0A max\n3.3V: 1.0A max\n1.8V: 0.5A max"
 		(exclude_from_sim no)
 		(at 203.2 110.49 0)
@@ -2515,6 +2538,17 @@
 			(justify right)
 		)
 		(uuid "3c29ba61-2d2b-4a41-8740-d548cfff8bab")
+	)
+	(text "Shorted to GND on slave side"
+		(exclude_from_sim no)
+		(at 88.9 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5082612a-e92b-4b73-9ed1-d7a4b6c46fdd")
 	)
 	(text "Cable Presence Detection"
 		(exclude_from_sim no)
@@ -2635,7 +2669,27 @@
 		)
 		(uuid "05d49c77-89a0-45aa-9eb0-328308c513ad")
 	)
-	(text_box "This part is not strictly nessesary, it is insurance against unforseen extra bus capacitance from the FFC or mask PCB.\nThis targets I2C FM (400 kHz), which has a bus capacitance limit of 400 pF.\n\nA conservative estimate of worst-case bus capacitances across the entire system is as follows:\n	Cable (1m FFC): 40 pF\n	Downstream I2C switch (TCA9546APW): 19 pF (input side) / 6 pF (per channel, 4 channels total)\n		Worst-case devices on one switch channel: 30 pF\n		Worst-case trace capacitance on one switch channel: 50 pF\nWorst-case scenario (All switch channels enabled): 403 pF (already over limit)\n\nAs capacitance estimates are conservative-worst case and there is no reason for all switch channels to be enabled, it is unlikely for the worst-case scenario to occur.\nHowever, this component is included to increase the safety margin should a similar event occur."
+	(text_box "0.33 mA per pin\nwhen connected"
+		(exclude_from_sim no)
+		(at 97.79 121.9978 0)
+		(size 21.59 6.2721)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2e73b4b5-3343-4f5a-a898-f95806143953")
+	)
+	(text_box "This part is not strictly nessesary, it is insurance against unforseen extra bus capacitance from the FFC or mask PCB.\nThis targets I2C FM (400 kHz), which has a bus capacitance limit of 400 pF.\n\nA conservative estimate of worst-case bus capacitances across the downstream system is as follows:\n	Cable (1 m FFC): 40 pF\n	Downstream I2C switch (TCA9546APW): 19 pF (input side) / 6 pF (per channel, 4 channels total)\n		Worst-case devices on one switch channel: 30 pF\n		Worst-case trace capacitance on one switch channel: 50 pF\nWorst-case scenario (All switch channels enabled): 403 pF (already over limit)\n\nAs capacitance estimates are conservative worst-case and there is no reason for all switch channels to be enabled, it is unlikely for the worst-case scenario to occur.\nThis component is included to increase the safety margin should a lesser event occur."
 		(exclude_from_sim no)
 		(at 39.37 83.82 0)
 		(size 124.46 29.2099)
@@ -3012,6 +3066,16 @@
 			(type default)
 		)
 		(uuid "5f71aef8-dbcf-429b-a1e3-9537f0c694e8")
+	)
+	(polyline
+		(pts
+			(xy 90.17 132.08) (xy 97.79 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe450e5-344f-4c90-9be8-8827d5d8039b")
 	)
 	(wire
 		(pts
