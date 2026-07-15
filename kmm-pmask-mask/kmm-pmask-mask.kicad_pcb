@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Flexible Patient Monitoring Mask Insert")
-		(date "2026-05-25")
+		(date "2026-07-15")
 		(rev "2.0")
 		(company "Ka Moamoa Lab, Georgia Institute of Technology")
 		(comment 1 "Aiden Lee [piman PCB]")
@@ -95,7 +95,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555755_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
