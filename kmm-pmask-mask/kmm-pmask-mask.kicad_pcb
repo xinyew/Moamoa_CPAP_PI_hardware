@@ -817,7 +817,7 @@
 		(property "Reference" "U14"
 			(at 0 3 180)
 			(layer "F.SilkS")
-			(uuid "ef5731d0-e393-4457-84be-7a7c7ae3ca60")
+			(uuid "01a71316-a14e-42a8-a220-9d394b969759")
 			(effects
 				(font
 					(size 1 1)
@@ -828,7 +828,7 @@
 		(property "Value" "TMP117MAIDRVR"
 			(at 0 1.95 90)
 			(layer "F.Fab")
-			(uuid "14496c0d-a1db-4ab2-a6a8-ffe855197d99")
+			(uuid "68623078-af6a-427a-a780-9aac44ca9daa")
 			(effects
 				(font
 					(size 1 1)
@@ -840,7 +840,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "95e09841-39e4-4314-a118-2acb3db5fcda")
+			(uuid "9ebe6e32-52fc-4794-89be-2f045e5c0ea8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -851,7 +851,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f881730-030c-4dd0-9eee-c2e699fd2cfc")
+			(uuid "4d73d57c-3d1d-49ac-9e47-0536d93b76f5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8514,7 +8514,7 @@
 		(descr "WSON, 6 Pin (http://www.ti.com/lit/ds/symlink/tps61040.pdf#page=35)")
 		(tags "WSON NoLead")
 		(property "Reference" "U4"
-			(at 0 -2.25 180)
+			(at 0 -2.2 270)
 			(layer "F.SilkS")
 			(uuid "5c74210a-1be1-419e-a8dc-8b5d1a9175a7")
 			(effects
@@ -11991,7 +11991,7 @@
 		(descr "Sensirion, SHT40, SHT41, SHT45, DFN, 4 Pin (https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf)")
 		(tags "DFN NoLead")
 		(property "Reference" "U3"
-			(at 0 -1.7 0)
+			(at -2.25 0 90)
 			(layer "F.SilkS")
 			(uuid "aebe2903-e4c8-446f-a26d-c0a29f9b6181")
 			(effects
@@ -13092,7 +13092,7 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
-			(at 0 -1.1 270)
+			(at 1.8 0 270)
 			(layer "F.SilkS")
 			(uuid "e8c60043-89dd-4619-ae6b-74fe4c968b4c")
 			(effects
@@ -14899,7 +14899,7 @@
 			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "1b9bd86d-481e-4b5d-ad13-2c1c0917b937")
+			(uuid "352b6c72-7852-4e55-83ea-4944de387602")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -14912,7 +14912,7 @@
 			(at 0.75 0 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "6b79673a-2b24-441f-8fac-c1924d12bb7b")
+			(uuid "df3c5775-5f30-4abe-b6dc-1ef5c54c9155")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -14925,7 +14925,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ed6c3f74-c766-4281-bbf6-11dd90bd37db")
+			(uuid "b87d2ded-dc9c-4d2e-aec0-27bf7a17cd82")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14937,7 +14937,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "53629fbf-87e4-4039-881a-3e839727c24a")
+			(uuid "861d0443-7f30-4d8e-868f-553887062bfb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15108,7 +15108,7 @@
 			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "7926ee34-7d80-4f13-b108-6be7d1ca0cde")
+			(uuid "fbf9919f-2c9f-47db-b805-18c76583a0b2")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -15121,7 +15121,7 @@
 			(at 0.75 0 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "bec699dd-142d-416f-a21d-90baaf852064")
+			(uuid "8e3c56fe-d2a3-4170-bc4c-0e7677346324")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -15134,7 +15134,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "22b697b8-ba5c-49e3-9218-c081181cde63")
+			(uuid "f53b53d1-8e95-4a36-adef-dd0e5780fdc2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15146,7 +15146,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "10dbd5e3-4fd9-41ae-a080-95510d4f8ae0")
+			(uuid "baf86493-e899-4207-892c-797f305a3e7c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16692,7 +16692,7 @@
 			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "9aaf7f0e-39f9-4d90-8c3a-8b4dd7754e53")
+			(uuid "55440dd1-9170-48f8-8138-7a6159ae4df0")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -16705,7 +16705,7 @@
 			(at 0.75 0 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "b8dfca11-aef2-4e22-a98f-5519bea9c43e")
+			(uuid "9d133b9f-22d0-4e4f-9d11-4b6d126f7ada")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -16718,7 +16718,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "fff8cc2c-497e-4a62-8ba5-49e98a32eea1")
+			(uuid "8d5b5357-9f82-4059-a22c-389ea61b02d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16730,7 +16730,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9875c55b-6049-40ca-9976-542b4860444b")
+			(uuid "123b95a8-21fc-4d1c-b9d7-7ce669b59b23")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26519,6 +26519,17 @@
 		)
 		(layer "User.2")
 		(uuid "da469fd7-cc47-4785-b210-939ea440fb0a")
+	)
+	(gr_text "Sensing\nMask Insert\nRev 2.0"
+		(at 84 70.5 0)
+		(layer "F.SilkS")
+		(uuid "24d591a1-e97d-4da7-8c22-4d2df019829b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(gr_text "0.5 mm/30 pos \nFFC (Reversible)"
 		(at 65 51 90)
