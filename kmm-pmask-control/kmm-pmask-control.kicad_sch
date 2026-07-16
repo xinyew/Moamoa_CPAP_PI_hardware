@@ -12,9 +12,69 @@
 		(comment 1 "Aiden Lee [piman PCB]")
 	)
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 139.7 104.14) (xy 152.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d26f325-3775-4bb7-bb29-b2fa207ade25")
+	)
+	(bus
+		(pts
+			(xy 139.7 71.12) (xy 152.4 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c96e96a-142d-49d3-8135-51322cb86a06")
+	)
+	(wire
+		(pts
+			(xy 139.7 111.76) (xy 152.4 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a653d0-503a-446c-af08-af2dbbf1b6fc")
+	)
+	(wire
+		(pts
+			(xy 76.2 66.04) (xy 88.9 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb3d2e0e-d2aa-4f8e-b718-9d72f2e45989")
+	)
+	(bus
+		(pts
+			(xy 139.7 66.04) (xy 152.4 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc69c909-d7ec-49f0-8410-ca4caecdd7bf")
+	)
+	(bus
+		(pts
+			(xy 139.7 109.22) (xy 152.4 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb40925-6b85-4335-959a-80401174d6f0")
+	)
 	(sheet
-		(at 69.85 25.4)
-		(size 31.75 25.4)
+		(at 88.9 63.5)
+		(size 50.8 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -29,7 +89,7 @@
 		)
 		(uuid "841086c9-4c99-4f37-bfb8-92a537b93af0")
 		(property "Sheetname" "MCU"
-			(at 69.85 24.6884 0)
+			(at 88.9 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40,7 +100,113 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 69.85 51.3846 0)
+			(at 88.9 127.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C{SDA, SCL, EN, ~{RST}}" bidirectional
+			(at 139.7 66.04 0)
+			(uuid "f751e0b7-ad28-4cde-8a20-45eb6b7173a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI{SDO, SDI, CS, CLK}" bidirectional
+			(at 139.7 104.14 0)
+			(uuid "52c4156e-1e6b-4f45-8881-6f43f2428e8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWD{IO, CLK}" bidirectional
+			(at 139.7 109.22 0)
+			(uuid "3f597344-a2d5-4b48-8584-19abd81d43a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 139.7 111.76 0)
+			(uuid "b18be7c2-4a36-486b-ad5e-2f67cf0de484")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PRESEN{A, B}" input
+			(at 139.7 71.12 0)
+			(uuid "935ebc1f-33a3-4364-91d0-6bb6f1f8007f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BATT_SENSE" input
+			(at 88.9 66.04 180)
+			(uuid "509ffec0-2767-4deb-8479-4cb253d426d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "kmm-pmask-control"
+				(path "/c80d922d-876d-4b9c-ac92-42497602c2d1"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 114.3)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c43a5210-23d6-49ca-8ac2-9e72849725ab")
+		(property "Sheetname" "Mechanical"
+			(at 203.2 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mech.kicad_sch"
+			(at 203.2 127.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53,13 +219,13 @@
 		(instances
 			(project "kmm-pmask-control"
 				(path "/c80d922d-876d-4b9c-ac92-42497602c2d1"
-					(page "3")
+					(page "6")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 114.3 25.4)
+		(at 152.4 63.5)
 		(size 38.1 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -75,7 +241,7 @@
 		)
 		(uuid "ccc70257-e47e-479f-a899-538e883eeaf6")
 		(property "Sheetname" "Mask Connection"
-			(at 114.3 24.6884 0)
+			(at 152.4 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -86,7 +252,7 @@
 			)
 		)
 		(property "Sheetfile" "ext_conn.kicad_sch"
-			(at 114.3 51.3846 0)
+			(at 152.4 89.4846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -97,7 +263,7 @@
 			)
 		)
 		(pin "I2C{SDA, SCL, EN, ~{RST}}" bidirectional
-			(at 114.3 27.94 180)
+			(at 152.4 66.04 180)
 			(uuid "3d857cce-7ace-4195-83d9-14ecf9d8c658")
 			(effects
 				(font
@@ -107,7 +273,7 @@
 			)
 		)
 		(pin "PRESEN{A, B}" output
-			(at 114.3 35.56 180)
+			(at 152.4 71.12 180)
 			(uuid "d8258805-8bcc-467c-ba4f-cd54a0a07468")
 			(effects
 				(font
@@ -125,8 +291,8 @@
 		)
 	)
 	(sheet
-		(at 31.75 25.4)
-		(size 25.4 19.05)
+		(at 38.1 63.5)
+		(size 38.1 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -141,7 +307,7 @@
 		)
 		(uuid "f007cbbd-83c1-44ae-bc22-d663ba1e2f0c")
 		(property "Sheetname" "Power"
-			(at 31.75 24.6884 0)
+			(at 38.1 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -152,7 +318,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 31.75 45.0346 0)
+			(at 38.1 89.4846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -162,10 +328,96 @@
 				(justify left top)
 			)
 		)
+		(pin "BATT_SENSE" output
+			(at 76.2 66.04 0)
+			(uuid "0a1af270-1947-4d89-84a7-46ca3ed99901")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "kmm-pmask-control"
 				(path "/c80d922d-876d-4b9c-ac92-42497602c2d1"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 101.6)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f1e98558-1b9d-4098-8189-4d5cc3f66678")
+		(property "Sheetname" "Board Perhipherals"
+			(at 152.4 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "perhipherals.kicad_sch"
+			(at 152.4 127.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPI{SDO, SDI, CS, CLK}" bidirectional
+			(at 152.4 104.14 180)
+			(uuid "c15586c7-fb21-4282-93fc-ed6dcdc6c244")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWD{IO, CLK}" bidirectional
+			(at 152.4 109.22 180)
+			(uuid "69bbc489-7b3e-4629-b5f1-4a8b30ec25aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" output
+			(at 152.4 111.76 180)
+			(uuid "f620e95b-808a-4c1f-81b9-ee4c06812889")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "kmm-pmask-control"
+				(path "/c80d922d-876d-4b9c-ac92-42497602c2d1"
+					(page "5")
 				)
 			)
 		)
