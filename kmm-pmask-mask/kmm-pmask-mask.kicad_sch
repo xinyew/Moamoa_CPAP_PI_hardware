@@ -4511,7 +4511,7 @@
 		)
 		(uuid "22d10a83-3d60-4e58-96a5-592ed5b6839e")
 	)
-	(text "ADDR0 shorted\nto GND\nI2C addr 0x4A\nBus load 4 pF"
+	(text "ADDR0 shorted\nto GND\nI2C addr 0x48\nBus load 4 pF"
 		(exclude_from_sim no)
 		(at 213.36 260.35 0)
 		(effects
@@ -4642,7 +4642,7 @@
 		)
 		(uuid "4b377fbf-d741-447d-ba3e-6ced3dbb9264")
 	)
-	(text "ADDR0 shorted\nto GND\nI2C addr 0x4A\nBus load 4 pF"
+	(text "ADDR0 shorted\nto GND\nI2C addr 0x48\nBus load 4 pF"
 		(exclude_from_sim no)
 		(at 213.36 146.05 0)
 		(effects
@@ -4817,7 +4817,7 @@
 		)
 		(uuid "9e41bc02-7780-444c-9fb1-0b52014ef5d7")
 	)
-	(text "ADDR0 shorted\nto GND\nI2C addr 0x4A\nBus load 4 pF"
+	(text "ADDR0 shorted\nto GND\nI2C addr 0x48\nBus load 4 pF"
 		(exclude_from_sim no)
 		(at 213.36 203.2 0)
 		(effects
@@ -10080,7 +10080,7 @@
 				)
 				(uuid "6456cbf6-9e56-4ef3-946d-63b8f619fe11")
 			)
-			(table_cell "0x4A"
+			(table_cell "0x48"
 				(exclude_from_sim no)
 				(at 71.12 40.005 0)
 				(size 19.05 3.175)
@@ -10160,7 +10160,7 @@
 				)
 				(uuid "da1d4654-203e-43c6-92e5-d13f0ef7b72f")
 			)
-			(table_cell "0x4A"
+			(table_cell "0x48"
 				(exclude_from_sim no)
 				(at 71.12 43.18 0)
 				(size 19.05 3.175)
@@ -10240,7 +10240,7 @@
 				)
 				(uuid "8ccee372-2b14-4cd5-b107-42f250cffd30")
 			)
-			(table_cell "0x4A"
+			(table_cell "0x48"
 				(exclude_from_sim no)
 				(at 71.12 46.355 0)
 				(size 19.05 3.175)
