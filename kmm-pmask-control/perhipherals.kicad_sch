@@ -1008,7 +1008,7 @@
 	)
 	(rectangle
 		(start 88.9 38.735)
-		(end 171.45 99.06)
+		(end 184.15 99.06)
 		(stroke
 			(width 0)
 			(type default)
@@ -1053,13 +1053,13 @@
 		(uuid "effdb7b5-4c92-4656-bd08-d34e8b490c77")
 	)
 	(junction
-		(at 127 85.09)
+		(at 135.89 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad5adbba-5983-4e5a-b472-0c62704ab45f")
 	)
 	(no_connect
-		(at 139.7 72.39)
+		(at 148.59 72.39)
 		(uuid "0a3ba081-d3fe-428c-90da-86089d82b153")
 	)
 	(no_connect
@@ -1071,7 +1071,7 @@
 		(uuid "a815cf5f-2e39-48c0-90b1-700eaea197dd")
 	)
 	(no_connect
-		(at 139.7 69.85)
+		(at 148.59 69.85)
 		(uuid "e375078b-092a-4c00-9c31-71c74ee40c09")
 	)
 	(bus_entry
@@ -1084,7 +1084,7 @@
 		(uuid "31e4d5d5-be56-40a5-8786-5952a5d0fc59")
 	)
 	(bus_entry
-		(at 149.86 64.77)
+		(at 158.75 64.77)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -1111,7 +1111,7 @@
 		(uuid "9e233c59-0340-479f-b3ba-14ef2ae254e9")
 	)
 	(bus_entry
-		(at 149.86 67.31)
+		(at 158.75 67.31)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -1130,7 +1130,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 87.63) (xy 127 85.09)
+			(xy 135.89 87.63) (xy 135.89 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1150,7 +1150,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 59.69) (xy 154.94 59.69)
+			(xy 148.59 59.69) (xy 163.83 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1160,7 +1160,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 82.55) (xy 124.46 85.09)
+			(xy 133.35 82.55) (xy 133.35 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1170,7 +1170,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 85.09) (xy 127 85.09)
+			(xy 133.35 85.09) (xy 135.89 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1180,7 +1180,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 67.31) (xy 149.86 67.31)
+			(xy 148.59 67.31) (xy 158.75 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1230,7 +1230,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 64.77) (xy 149.86 64.77)
+			(xy 148.59 64.77) (xy 158.75 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1250,7 +1250,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 62.23) (xy 154.94 62.23)
+			(xy 161.29 62.23) (xy 163.83 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1270,7 +1270,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 82.55) (xy 127 85.09)
+			(xy 135.89 82.55) (xy 135.89 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1330,7 +1330,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 49.53) (xy 127 52.07)
+			(xy 135.89 49.53) (xy 135.89 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1340,7 +1340,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 64.77) (xy 152.4 62.23)
+			(xy 161.29 64.77) (xy 161.29 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1349,7 +1349,7 @@
 		(uuid "f856f1db-56cb-4155-a418-3ebf392cc662")
 	)
 	(label "SWD.CLK"
-		(at 140.97 64.77 0)
+		(at 149.86 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1359,7 +1359,7 @@
 		(uuid "20e7c5ff-80f6-4a38-8eab-287a60235c67")
 	)
 	(label "SWD.IO"
-		(at 140.97 67.31 0)
+		(at 149.86 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1410,7 +1410,7 @@
 	)
 	(hierarchical_label "~{RESET}"
 		(shape output)
-		(at 154.94 59.69 0)
+		(at 163.83 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1421,7 +1421,7 @@
 	)
 	(hierarchical_label "SWD{IO, CLK}"
 		(shape bidirectional)
-		(at 154.94 62.23 0)
+		(at 163.83 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1522,7 +1522,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 87.63 0)
+		(at 135.89 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1533,7 +1533,7 @@
 		(fields_autoplaced yes)
 		(uuid "34f75bfb-eded-44bf-afdf-5b4c1b8a2b0e")
 		(property "Reference" "#PWR034"
-			(at 127 93.98 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1544,7 +1544,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 92.71 0)
+			(at 135.89 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1554,7 +1554,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 87.63 0)
+			(at 135.89 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1565,7 +1565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 87.63 0)
+			(at 135.89 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1576,7 +1576,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 87.63 0)
+			(at 135.89 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1813,7 +1813,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 127 49.53 0)
+		(at 135.89 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1824,7 +1824,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a63e0a2-f918-4a44-adc1-28b1b3a2644d")
 		(property "Reference" "#PWR033"
-			(at 127 53.34 0)
+			(at 135.89 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1835,7 +1835,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 127 44.45 0)
+			(at 135.89 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1845,7 +1845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 49.53 0)
+			(at 135.89 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1856,7 +1856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 49.53 0)
+			(at 135.89 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1867,7 +1867,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 127 49.53 0)
+			(at 135.89 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1891,7 +1891,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_ARM_JTAG_SWD_10")
-		(at 127 67.31 0)
+		(at 135.89 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1902,7 +1902,7 @@
 		(fields_autoplaced yes)
 		(uuid "9730a22a-9be3-4079-85ab-9c2ee4558942")
 		(property "Reference" "J5"
-			(at 114.935 66.0399 0)
+			(at 123.825 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1912,8 +1912,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_ARM_JTAG_SWD_10"
-			(at 114.935 68.5799 0)
+		(property "Value" "BD125-10-A-0305-0580-L-B"
+			(at 123.825 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1924,7 +1924,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
-			(at 127 67.31 0)
+			(at 135.89 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1935,7 +1935,7 @@
 			)
 		)
 		(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
-			(at 118.11 99.06 90)
+			(at 127 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1946,7 +1946,40 @@
 			)
 		)
 		(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
-			(at 127 67.31 0)
+			(at 135.89 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "BD125-10-A-0305-0580-L-B"
+			(at 135.89 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "DigiKey"
+			(at 135.89 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor P/N" "2073-BD125-10-A-0305-0580-L-BCT-ND"
+			(at 135.89 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

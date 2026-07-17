@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -69,8 +69,47 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|49295000|91960000|54c67054-cb5f-450f-a265-70dcd9ca79cf|78c3b4a0-bdc0-4d86-9f08-e90cc4abe1f8",
+          "Intentional stacking of footprints"
+        ],
+        [
+          "lib_footprint_mismatch|65000000|101000000|a864707f-c0c6-4753-bd9d-f20d3516b757|00000000-0000-0000-0000-000000000000",
+          "Library error causes back side vias to be untented"
+        ],
+        [
+          "pth_inside_courtyard|47450000|94000000|e9b7ecdd-8d16-4a56-90b0-2f89ea774692|78c3b4a0-bdc0-4d86-9f08-e90cc4abe1f8",
+          "Intentional stacking of footprints"
+        ],
+        [
+          "pth_inside_courtyard|47450000|96000000|7b748a59-1bfa-40f4-8133-3a8ab633baf8|78c3b4a0-bdc0-4d86-9f08-e90cc4abe1f8",
+          "Intentional stacking of footprints"
+        ],
+        [
+          "silk_over_copper|47235000|94165000|e552fe8a-9ccc-4cff-9ba1-1312a71c67a4|e9b7ecdd-8d16-4a56-90b0-2f89ea774692",
+          "Intentional stacking of footprints"
+        ],
+        [
+          "silk_over_copper|47235000|94350000|636b1f53-9e36-4b25-b28f-ddbc8f8c08ca|e9b7ecdd-8d16-4a56-90b0-2f89ea774692",
+          "Intentional stacking of footprints"
+        ],
+        [
+          "silk_over_copper|47235000|96000000|05cb14d3-a223-42cb-9dd0-33ece300b79f|7b748a59-1bfa-40f4-8133-3a8ab633baf8",
+          "Intentional stacking of footprints"
+        ],
+        [
+          "silk_over_copper|47235000|96000000|636b1f53-9e36-4b25-b28f-ddbc8f8c08ca|7b748a59-1bfa-40f4-8133-3a8ab633baf8",
+          "Intentional stacking of footprints"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -116,7 +155,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -203,7 +242,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.254,
+        0.381,
+        0.508
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +274,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -598,12 +651,42 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Vendor",
+          "name": "Vendor",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vendor P/N",
+          "name": "Vendor P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer P/N",
+          "name": "Manufacturer P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -648,8 +731,15 @@
         "uuid": "c80d922d-876d-4b9c-ac92-42497602c2d1"
       }
     ],
-    "used_designators": "R1-19,TP1-19,C1-15,U1-5,D1-9,SW1-2,L1,#FLG1-5,H1-8,FID1-4,#PWR1-59,#PWR90-126,J1-5,Q1,F1",
-    "variants": []
+    "used_designators": "C1-15,SW1-2,L1,#FLG1-5,H1-8,FID1-4,#PWR1-59,#PWR90-126,J1-5,F1,Q1,U1-5,D1-9,R1-19,TP1-19",
+    "variants": [
+      {
+        "name": "2.54mm Battery Option"
+      },
+      {
+        "name": "JST Battery Option"
+      }
+    ]
   },
   "sheets": [
     [
