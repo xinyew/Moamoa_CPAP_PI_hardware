@@ -3870,7 +3870,7 @@
 		)
 		(uuid "559e03db-9201-44a2-8d01-c204d6451f11")
 	)
-	(text_box "A 1/2 Voltage divider to allow the MCU to approximate the current battery percentage."
+	(text_box "A 2:1 Voltage divider to allow the MCU to approximate the current battery percentage."
 		(exclude_from_sim no)
 		(at 204.47 64.77 0)
 		(size 29.21 10.16)
@@ -7682,7 +7682,7 @@
 				)
 			)
 		)
-		(property "Value" "MFU0603FF02000P500"
+		(property "Value" "0685T2000-01"
 			(at 95.25 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7692,7 +7692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 95.25 36.068 90)
 			(hide yes)
 			(show_name no)
@@ -7703,7 +7703,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28747/mfuserie.pdf"
+		(property "Datasheet" "https://www.belfuse.com/media/datasheets/products/circuit-protection/ds-cp-c1t-series.pdf"
 			(at 95.25 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7714,7 +7714,7 @@
 				)
 			)
 		)
-		(property "Description" "2 A 32 V Fuse"
+		(property "Description" "FUSE BRD MNT 2A 63VAC 63VDC 1206"
 			(at 95.25 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7725,7 +7725,7 @@
 				)
 			)
 		)
-		(property "Manufacturer P/N" "MFU0603FF02000P500"
+		(property "Manufacturer P/N" "0685T2000-01"
 			(at 95.25 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7747,7 +7747,7 @@
 				)
 			)
 		)
-		(property "Vendor P/N" "749-MFU0603FF02000P500CT-ND"
+		(property "Vendor P/N" "5923-0685T2000-01CT-ND"
 			(at 95.25 34.29 0)
 			(hide yes)
 			(show_name no)
