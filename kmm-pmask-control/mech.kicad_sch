@@ -507,6 +507,12 @@
 				(path "/c80d922d-876d-4b9c-ac92-42497602c2d1/c43a5210-23d6-49ca-8ac2-9e72849725ab"
 					(reference "H2")
 					(unit 1)
+					(variant
+						(name "2.54mm Battery Option")
+					)
+					(variant
+						(name "JST Battery Option")
+					)
 				)
 			)
 		)
@@ -583,6 +589,12 @@
 				(path "/c80d922d-876d-4b9c-ac92-42497602c2d1/c43a5210-23d6-49ca-8ac2-9e72849725ab"
 					(reference "FID2")
 					(unit 1)
+					(variant
+						(name "2.54mm Battery Option")
+					)
+					(variant
+						(name "JST Battery Option")
+					)
 				)
 			)
 		)
@@ -740,6 +752,12 @@
 				(path "/c80d922d-876d-4b9c-ac92-42497602c2d1/c43a5210-23d6-49ca-8ac2-9e72849725ab"
 					(reference "H1")
 					(unit 1)
+					(variant
+						(name "2.54mm Battery Option")
+					)
+					(variant
+						(name "JST Battery Option")
+					)
 				)
 			)
 		)
@@ -894,6 +912,12 @@
 				(path "/c80d922d-876d-4b9c-ac92-42497602c2d1/c43a5210-23d6-49ca-8ac2-9e72849725ab"
 					(reference "FID3")
 					(unit 1)
+					(variant
+						(name "2.54mm Battery Option")
+					)
+					(variant
+						(name "JST Battery Option")
+					)
 				)
 			)
 		)
@@ -970,6 +994,12 @@
 				(path "/c80d922d-876d-4b9c-ac92-42497602c2d1/c43a5210-23d6-49ca-8ac2-9e72849725ab"
 					(reference "FID1")
 					(unit 1)
+					(variant
+						(name "2.54mm Battery Option")
+					)
+					(variant
+						(name "JST Battery Option")
+					)
 				)
 			)
 		)
@@ -1127,6 +1157,12 @@
 				(path "/c80d922d-876d-4b9c-ac92-42497602c2d1/c43a5210-23d6-49ca-8ac2-9e72849725ab"
 					(reference "H3")
 					(unit 1)
+					(variant
+						(name "2.54mm Battery Option")
+					)
+					(variant
+						(name "JST Battery Option")
+					)
 				)
 			)
 		)
@@ -1206,6 +1242,12 @@
 				(path "/c80d922d-876d-4b9c-ac92-42497602c2d1/c43a5210-23d6-49ca-8ac2-9e72849725ab"
 					(reference "H4")
 					(unit 1)
+					(variant
+						(name "2.54mm Battery Option")
+					)
+					(variant
+						(name "JST Battery Option")
+					)
 				)
 			)
 		)

@@ -94,8 +94,8 @@
           "Intentional stacking of footprints"
         ],
         [
-          "silk_over_copper|47235000|94165000|e552fe8a-9ccc-4cff-9ba1-1312a71c67a4|e9b7ecdd-8d16-4a56-90b0-2f89ea774692",
-          "Intentional stacking of footprints"
+          "silk_over_copper|46825000|94165000|e552fe8a-9ccc-4cff-9ba1-1312a71c67a4|e9b7ecdd-8d16-4a56-90b0-2f89ea774692",
+          "This is intentional"
         ],
         [
           "silk_over_copper|47235000|94350000|636b1f53-9e36-4b25-b28f-ddbc8f8c08ca|e9b7ecdd-8d16-4a56-90b0-2f89ea774692",
@@ -589,7 +589,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "exports/kmm-pmask-control.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -731,7 +731,7 @@
         "uuid": "c80d922d-876d-4b9c-ac92-42497602c2d1"
       }
     ],
-    "used_designators": "R1-19,TP1-19,C1-15,SW1-2,L1,#FLG1-5,H1-8,FID1-4,#PWR1-59,#PWR90-126,J1-5,F1,Q1,D1-9,U1-5",
+    "used_designators": "H1-8,FID1-4,#PWR1-59,#PWR90-126,J1-5,Q1,F1,R1-19,TP1-19,C1-15,U1-5,D1-9,SW1-2,L1,#FLG1-5",
     "variants": [
       {
         "name": "2.54mm Battery Option"

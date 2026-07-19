@@ -1728,6 +1728,12 @@
 				(path "/c80d922d-876d-4b9c-ac92-42497602c2d1/f1e98558-1b9d-4098-8189-4d5cc3f66678"
 					(reference "J4")
 					(unit 1)
+					(variant
+						(name "2.54mm Battery Option")
+					)
+					(variant
+						(name "JST Battery Option")
+					)
 				)
 			)
 		)
@@ -2024,6 +2030,12 @@
 				(path "/c80d922d-876d-4b9c-ac92-42497602c2d1/f1e98558-1b9d-4098-8189-4d5cc3f66678"
 					(reference "J5")
 					(unit 1)
+					(variant
+						(name "2.54mm Battery Option")
+					)
+					(variant
+						(name "JST Battery Option")
+					)
 				)
 			)
 		)
