@@ -1,2 +1,25 @@
 kmm-pmask-mask/kmm-pmask-mask-backups
 kmm-pmask-control/kmm-pmask-control-backups
+
+# Ignore .history folders anywhere in the repository
+**/.history/
+**/exports
+
+# Ignore auto-save and backup files in any subdirectory
+**/*.bak
+**/*-bak
+**/*.kicad_pcb-bak
+**/*.kicad_sch-bak
+**/*_auto.*
+**/*.lck
+
+# Ignore local cache and design rule check reports
+**/fp-info-cache
+**/*.rpt
+
+# Optional: Ignore generated fabrication files (Gerbers, Drill, BOM)
+# Uncomment the lines below if you generate these into an 'output' folder
+# and do not want to track them in Git.
+**/output/
+**/*.gbr
+**/*.drl
